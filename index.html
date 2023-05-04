@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag "track"</title>
+</head>
+<body>
+    <h1>A tag track</h1>
+
+<!--A tag track é uma tag HTML que é usada para adicionar legendas, descrições de capítulos, transcrições ou metadados relacionados a um elemento de mídia.-->
+<!--exemplo de código HTML usando a tag track:-->
+<video controls>
+  <source src="video.mp4" type="video/mp4">
+  <track src="legendas.vtt" kind="subtitles" srclang="pt" label="Português">
+  <track src="captions.vtt" kind="captions" srclang="en" label="English">
+</video>
+<!--Neste exemplo, o elemento video contém dois elementos source que especificam diferentes formatos de vídeo para serem reproduzidos no navegador.-->
+<!--Também há dois elementos track, que especificam diferentes legendas para os formatos de vídeo.-->
+<!--O primeiro track especifica que o arquivo de legenda legendas.vtt deve ser exibido como legendas em português. O segundo track especifica que o arquivo de legenda captions.vtt deve ser exibido como legendas em inglês.-->
+<!--O atributo kind na tag track especifica o tipo de legenda ou descrição que está sendo adicionada. Os valores possíveis são:-->
+
+<!--subtitles: legendas para pessoas que não entendem o idioma falado no vídeo.-->
+<!--captions: legendas para pessoas com deficiência auditiva ou surdas.-->
+<!--descriptions: descrições de áudio para pessoas com deficiência visual.-->
+<!--chapters: descrições de capítulos ou seções do vídeo.-->
+<!--metadata: metadados sobre o vídeo, como informações de direitos autorais.-->
+<!--O atributo srclang especifica o idioma da legenda ou descrição, e o atributo label especifica o rótulo que será exibido para a legenda ou descrição.-->
+
+</body>
+</html>
